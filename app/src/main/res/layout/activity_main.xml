@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:background="@drawable/green"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="59dp"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingTop="1dp"
+            android:id="@+id/imageButton"
+            android:background="@mipmap/ic_launcher"
+            android:clickable="true"
+            android:longClickable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome!"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="To optimize the experience we recommend to sign up. Of course,you can continue without registration."
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+ <!--       <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginTop="15dp"> -->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOG IN"
+            android:id="@+id/button"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp" />
+
+     <!--   </FrameLayout> -->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:id="@+id/button2"
+            android:clickable="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button" />
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Skip the mess for now"
+            android:clickable="true"
+            android:id="@+id/textView2"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="80dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

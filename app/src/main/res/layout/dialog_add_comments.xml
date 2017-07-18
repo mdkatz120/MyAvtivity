@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#555556"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/editOpinion"
+                android:background="@android:drawable/ic_menu_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                />
+
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Your comment:(until 100 charcters)"
+                android:id="@+id/editComment"
+                android:layout_weight="8.20"
+                android:inputType="textPersonName|text" />
+        </LinearLayout>
+    </LinearLayout>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:id="@+id/star_critic"
+        android:rating="0.0" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD YOUR OPINION"
+            android:id="@+id/add_comment"/>
+    </LinearLayout>
+</LinearLayout>
