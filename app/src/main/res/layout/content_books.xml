@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_add"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.shorfamily.myavtivity.BooksActivity"
+    tools:context="com.example.katz.myavtivity.BooksActivity"
     tools:showIn="@layout/activity_books">
 
     <LinearLayout

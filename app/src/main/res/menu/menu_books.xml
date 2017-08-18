@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.shorfamily.myavtivity.BooksActivity">
+    tools:context="com.example.katz.myavtivity.BooksActivity">
 
     <item android:id="@+id/action_send"
         android:title="Added"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="@drawable/green"
-    tools:context="com.example.shorfamily.myavtivity.BookDetails">
+    tools:context="com.example.katz.myavtivity.BookDetails">
     <!--item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never"
         />-->

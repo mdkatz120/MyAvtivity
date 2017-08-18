@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.shorfamily.myavtivity.CostumerFragment">
+    tools:context="com.example.katz.myavtivity.CostumerFragment">
 
     <ScrollView
         android:layout_width="match_parent"

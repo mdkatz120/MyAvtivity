@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.shorfamily.myavtivity">
+    package="com.example.katz.myavtivity">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -16,7 +16,7 @@
       >
         android:debuggable="true"
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.katz.myavtivity.MainActivity"
             android:label="Book Store">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,22 +25,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Log_In"
+            android:name="com.example.katz.myavtivity.Log_In"
             android:label="Log In" />
         <activity
-            android:name=".sign_in"
+            android:name="com.example.katz.myavtivity.sign_in"
             android:label="sign in"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BooksActivity"
+            android:name="com.example.katz.myavtivity.BooksActivity"
             android:label=""
             android:layout_width="0dp"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BookDetails"
+            android:name="com.example.katz.myavtivity.BookDetails"
             android:label="@string/title_activity_book_details"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".provider"></activity>
+        <activity android:name="com.example.katz.myavtivity.provider"></activity>
     </application>
 
 </manifest>
